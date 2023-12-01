@@ -1,9 +1,11 @@
 const world = Globe()
-    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-    .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
-    (document.getElementById('globeViz'));
 
-// custom globe material
+// Globe basic settings
+world.globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+world.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+world(document.getElementById('globe_scene'));
+
+// Custom globe material
 const globeMaterial = world.globeMaterial();
 globeMaterial.bumpScale = 10;
 
