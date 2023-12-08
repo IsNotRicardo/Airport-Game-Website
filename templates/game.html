@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game | Path:Unknown</title>
+    <script src="https://unpkg.com/globe.gl"></script>
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block content %}
+        <div id="globe_scene"></div>
+        <script src="{{ url_for('static', filename='js/globe.js') }}"></script>
+    {% endblock %}
+</body>
+</html>
