@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Game | Path:Unknown</title>
     <script src="https://unpkg.com/globe.gl"></script>
+    <script src="https://unpkg.com/three/build/three.min.js"></script>
 </head>
 <body>
     {% extends "base.html" %}
     {% block content %}
         <div id="globe_scene"></div>
+
         <script src="{{ url_for('static', filename='js/globe.js') }}"></script>
     {% endblock %}
 </body>

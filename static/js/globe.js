@@ -1,12 +1,12 @@
-const world = Globe()
+const globe = Globe()
 
-// Globe basic settings
-world.globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-world.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
-world(document.getElementById('globe_scene'));
+// Basic globe settings
+globe(document.getElementById('globe_scene'));
+globe.globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+globe.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
 
 // Custom globe material
-const globeMaterial = world.globeMaterial();
+const globeMaterial = globe.globeMaterial();
 globeMaterial.bumpScale = 10;
 
 new THREE.TextureLoader().load('//unpkg.com/three-globe/example/img/earth-water.png', texture => {
@@ -15,5 +15,5 @@ new THREE.TextureLoader().load('//unpkg.com/three-globe/example/img/earth-water.
     globeMaterial.shininess = 15;
 });
 
-const directionalLight = world.lights().find(light => light.type === 'DirectionalLight');
+const directionalLight = globe.lights().find(light => light.type === 'DirectionalLight');
 directionalLight && directionalLight.position.set(1, 1, 1); // change light position to see the specularMap's effect

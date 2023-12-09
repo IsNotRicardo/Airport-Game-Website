@@ -1,6 +1,8 @@
 from flask import Flask, render_template, redirect, url_for
+from game import routes
 
 app = Flask(__name__)
+app.register_blueprint(routes)
 
 
 @app.route('/path.unknown')
