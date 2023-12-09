@@ -1,0 +1,56 @@
+
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.Introduction_text {
+    margin-top: 20px;
+}
+
+.Introduction_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.Target_and_Dif {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Game_difficulty, .Target_distance {
+    width: 48%;
+}
+
+.Game_Dif_image, .Target_Dis_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.Game_Dif_description, .Target_Dis_description {
+    margin-top: 10px;
+}
+
+
+p {
+    color: #555;
+    margin-bottom: 10px;
+}
