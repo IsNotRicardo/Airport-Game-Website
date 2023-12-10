@@ -112,7 +112,7 @@ header {
     text-align: center;
     display: inline-block;
     margin:2vw;
-    width: 12vw ;
+    width: 100%;
     font-weight: bold;
     padding: 10px 0 10px 10px;
     background-color: lightgray;
