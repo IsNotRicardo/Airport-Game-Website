@@ -5,12 +5,42 @@
     <title>Game | Path:Unknown</title>
     <script src="https://unpkg.com/globe.gl"></script>
     <script src="https://unpkg.com/three/build/three.min.js"></script>
+    <link rel="stylesheet" href="../static/css/game.css">
 </head>
 <body>
     {% extends "base.html" %}
     {% block content %}
         <div id="globe_scene"></div>
+        <div id="airports">
+            <div id="current_airport"></div>
+            <div id="target_airport"></div>
+        </div>
+        <div id="settings_modal" class="modal">
+            <div class="settings_content">
+                <form id="settings_form">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required="required"><br>
 
+                    <label for="difficulty">Game Difficulty:</label><br>
+                    <input type="radio" id="easy" name="difficulty" value="easy" checked="checked">
+                    <label for="easy">Easy</label><br>
+                    <input type="radio" id="normal" name="difficulty" value="normal">
+                    <label for="normal">Normal</label><br>
+                    <input type="radio" id="hard" name="difficulty" value="hard">
+                    <label for="hard">Hard</label><br>
+
+                    <label for="distance">Distance to Target:</label><br>
+                    <input type="radio" id="close" name="distance" value="close" checked="checked">
+                    <label for="close">Close</label><br>
+                    <input type="radio" id="medium" name="distance" value="medium">
+                    <label for="medium">Medium</label><br>
+                    <input type="radio" id="far" name="distance" value="far">
+                    <label for="far">Far</label><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
         <script src="{{ url_for('static', filename='js/globe.js') }}"></script>
     {% endblock %}
 </body>
