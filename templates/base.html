@@ -5,13 +5,28 @@
     <title>Base | Path: Unknown</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
-<body>
+
     <header>
-        <!-- Header content here -->
+       <nav class="mainNav">
+
+   <div class="mainNav__links-container">
+    <a href="home.html" class="mainNav__link">Home</a>
+    <a href="tutorial.html" class="mainNav__link">Tutorial</a>
+    <a href="game.html" class='start-btn' style="font-family: 'Press Start 2p',sans-serif">Play</a>
+    <a href="leaderboard.html" class="mainNav__link">Leaderboard</a>
+    <a href="credits.html" class="mainNav__link">Credits</a>
+</div>
+
+</nav>
     </header>
-    {% block content %}
+ {% block content %}
     {% endblock %}
+
+
+<body class="mainHeading">
+    <div class="Heading_logo">
+    </div>
 </body>
 </html>
