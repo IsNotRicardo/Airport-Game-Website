@@ -1,3 +1,34 @@
+.interface {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 30px;
+    font-size: 15px;
+    font-family: "Press Start 2p";
+}
+
+#airports {
+    width: 50vw;
+    left: 30px;
+}
+
+#stats {
+    width: 25vw;
+    right: 30px;
+}
+
+.ui-labels {
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: lightgray;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 .modal {
     display: block;
     position: fixed;

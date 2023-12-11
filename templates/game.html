@@ -11,10 +11,16 @@
     {% extends "base.html" %}
     {% block content %}
         <div id="globe_scene"></div>
-        <div id="airports">
-            <div id="current_airport"></div>
-            <div id="target_airport"></div>
+        <div id="airports" class="interface">
+            <label id="proximity" class="ui-labels"></label>
+            <label id="current" class="ui-labels"></label>
+            <label id="target" class="ui-labels"></label>
         </div>
+        <div id="stats" class="interface">
+            <label id="attempts" class="ui-labels"></label>
+            <label id="distance" class="ui-labels"></label>
+        </div>
+
         <div id="settings_modal" class="modal">
             <div class="settings_content">
                 <form id="settings_form">
