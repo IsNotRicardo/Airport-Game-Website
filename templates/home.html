@@ -2,44 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Path: Unknown</title>
+    <title>Home | Path:Unknown</title>
   <link rel="stylesheet" href="../static/css/home.css">
 </head>
-<header>
-<nav class="mainNav">
-
-   <div class="mainNav__links-container">
-    <a href="home.html" class="mainNav__link">Home</a>
-    <a href="tutorial.html" class="mainNav__link">Tutorial</a>
-    <a href="game.html" class='start-btn' style="font-family: 'Press Start 2p',sans-serif">Play</a>
-    <a href="leaderboard.html" class="mainNav__link">Leaderboard</a>
-    <a href="credits.html" class="mainNav__link">Credits</a>
-</div>
-
-</nav>
-    </header>
 <body class="mainHeading">
-    <div class="Heading_logo">
-        <img src="../static/img/Path-Unknown-11-30-2023.png">
-    </div>
-   <div class="mainHeading__content">
-      <article class="mainHeading__text">
-         <p class="mainHeading__preTitle">Path Unknown</p>
-         <h2 class="mainHeading__title">Travel the world!</h2>
-         <p class="mainHeading__description">
-         <p>Embark on a Globetrotting Adventure!<p> Strategize your way to the Uncharted final destination.</p>
-         <p>Will You Reach Paradise or Soar into the Unknown?</p>
-         <button class="cta">Play now</button>
-          <button class="cta">Sign up</button>
-
-      </article>
-
-      <figure class="mainHeading__image">
-         <img
-            src="https://www.transportenvironment.org/annual-report-2018/images/plane-left.gif"
-            alt=""
-         />
-      </figure>
-   </div>
+    {% extends "base.html" %}
+    {% block content %}
+        <div class="Heading_logo">
+            <img src="../static/img/Path-Unknown-11-30-2023.png">
+        </div>
+        <div class="mainHeading__content">
+            <article class="mainHeading__text">
+                <p class="mainHeading__preTitle">Path Unknown</p>
+                <h2 class="mainHeading__title">Travel the world!</h2>
+                <p class="mainHeading__description">
+                <p>Embark on a Globetrotting Adventure!<p> Strategize your way to the Uncharted final destination.</p>
+                <p>Will You Reach Paradise or Soar into the Unknown?</p>
+                <button class="cta">Play now</button>
+                <button class="cta">Sign up</button>
+            </article>
+            <figure class="mainHeading__image">
+                <img src="https://www.transportenvironment.org/annual-report-2018/images/plane-left.gif"
+                     alt=""/>
+            </figure>
+        </div>
+    {% endblock %}
 </body>
 </html>
