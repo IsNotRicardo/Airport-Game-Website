@@ -6,10 +6,10 @@ body, h1, h2, p, img {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     max-width: 65%;
     margin: 0 auto;
+    align-content: center;
 }
 
 
