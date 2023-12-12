@@ -135,10 +135,13 @@ h3 {
     font-size: small;
 }
 
+
 .teamdesc {
-    padding: 3.2rem;
-    margin-top: 4%;
-    font-size: large;
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
     color: white;
     text-align: center;
 }
