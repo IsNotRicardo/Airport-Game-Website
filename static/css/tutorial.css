@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+.mainHeading__content{
+    align-content: center
+}
+
+
+
 body, h1, h2, p, img {
     margin: 0;
     padding: 0;
