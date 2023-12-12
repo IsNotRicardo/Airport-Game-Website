@@ -23,7 +23,6 @@
   width: 100%;
   height: 100%;
   align-content: space-around;
-  position: fixed;
   padding: 0px;
   background-image: url("/static/img/backdrop.png");
 }

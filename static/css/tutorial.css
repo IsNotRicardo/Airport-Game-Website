@@ -5,22 +5,22 @@
     align-content: center
 }
 
-h1{
+#intro {
     font-family: "Press Start 2p" ;
     color: #555555;
     background-color: #ecf0f1;
     padding: 8px;
-    max-width: 70%;
+    width: 70%;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
     border-radius: 4px;
     transition: background-color 0.2s ease-in-out;
+    justify-content: center;
     cursor: pointer;
-    text-align: center;
 }
 
-h1:hover {
+#intro:hover {
     background-color: #bdc3c7;
 }
 
@@ -88,7 +88,8 @@ h2:hover {
 
 
 .Target_and_Dif {
-    margin-top: 30px;
+    width: 80%;
+    margin: 30px auto 100px auto;
     display: flex;
     justify-content: space-between;
     font-size: 15px;
@@ -99,7 +100,7 @@ h2:hover {
 
 
 .Game_difficulty, .Target_distance {
-    width: 48%;
+    width: 35vw;
 }
 
 .Game_Dif_image, .Target_Dis_image {
@@ -122,6 +123,12 @@ h2:hover {
     filter: brightness(110%);
 }
 
+#text {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
 p {
     color: white;
