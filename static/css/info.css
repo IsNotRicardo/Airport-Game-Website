@@ -14,12 +14,6 @@ body {
     display: flex;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: white;
-}
-
 h3 {
     text-align: center;
     font-size: 2rem;
@@ -27,7 +21,7 @@ h3 {
 }
 
 .ricardo {
-    width: 32%;
+    width: 20%;
 }
 
 .ricardo_img {
@@ -42,8 +36,15 @@ h3 {
     overflow: hidden;
 }
 
+.ricardodesc {
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
 .theo {
-    width: 32%;
+    width: 20%;
 }
 
 .theo_img {
@@ -58,8 +59,15 @@ h3 {
     overflow: hidden;
 }
 
+.theodesc {
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
 .upeksha {
-    width: 32%;
+    width: 20%;
 }
 
 .upeksha_img {
@@ -74,8 +82,15 @@ h3 {
     overflow: hidden;
 }
 
+.upekshadesc {
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
 .daniil {
-    width: 32%;
+    width: 20%;
 }
 
 .daniil_img {
@@ -90,8 +105,15 @@ h3 {
     overflow: hidden;
 }
 
+.daniildesc {
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
 .egzon {
-    width: 32%;
+    width: 20%;
 }
 
 .egzon_img {
@@ -106,14 +128,17 @@ h3 {
     overflow: hidden;
 }
 
-p {
+.egzondesc {
+    padding: 0.5rem;
     color: white;
-    font-size: small;
     text-align: center;
+    font-size: small;
 }
 
 .teamdesc {
-    padding: 2rem;
+    padding: 3.2rem;
     margin-top: 4%;
     font-size: large;
+    color: white;
+    text-align: center;
 }
