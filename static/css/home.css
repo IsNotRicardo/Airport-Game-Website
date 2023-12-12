@@ -249,7 +249,7 @@ body {
   max-width: 30vw;
   height: auto;
   display: block;
-  margin: 6% auto 0;
+  margin: 100px auto 0;
   padding: 0rem;
   justify-content: space-evenly;
   animation: image 0.6s 0.2s ease backwards;
