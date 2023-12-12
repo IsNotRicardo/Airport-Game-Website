@@ -1,0 +1,79 @@
+Index: templates/tutorial.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n    {% extends \"base.html\" %}\r\n    {% block content %}\r\n        <!-- Insert code here -->\r\n    {% endblock %}\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/tutorial.html b/templates/tutorial.html
+--- a/templates/tutorial.html	
++++ b/templates/tutorial.html	
+@@ -2,12 +2,47 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Title</title>
++    <title>Tutorial | Path:Unknown</title>
++    <link rel="stylesheet" href="../static/css/Tutorial.css">
+ </head>
+ <body>
+     {% extends "base.html" %}
+     {% block content %}
+         <!-- Insert code here -->
++<h1>Tutorial</h1>
++<h2>Introduction</h2>
++
++<div class="Introduction_text">
++    <img src="../img/Tutorial_Picture.jpg" alt="Introduction" class="Introduction_image">
++  <p>In this game you will spawn at a random airport, anywhere in the world.
++    Your objective is to reach a specific airport in the minimum amount of attempts possible.
++    An attempt is counted everytime you reach a different airport.
++    Instructions on how to move can be found after starting a game.</p>
++</div>
++
++<div class="Target_and_Dif">
++    <div class="Game_difficulty">
++        <img src="../img/Game_difficulty.jpg" alt="Game_Dif" class="Game_Dif_image">
++            <div class="Game_Dif_description">
++                <p>There are three levels in game: Easy, Medium or Hard.</p>
++                    <p>This parameter affects the type of airports that appear in your game session.</p>
++                     <p> 1. Easy: Only large airports. </p>
++                     <p> 2. Medium: Large and medium airports. </p>
++                     <p> 3. Hard: Large, medium and small airports. </p>
++
++            </div>
++        </div>
++    <div class="Target_distance">
++        <img src="../img/Target_distance.jpg" alt="Target_Dis" class="Target_Dis_image">
++        <div class="Target_Dis_description">
++            <p>Target Distance: Near, Average or Far.</p>
++            <p>This parameter affects the distance between the starting and the target airports.</p>
++            <p> 1. Near: Between 1,000 and 5,000 kilometers. </p>
++            <p> 2. Average: Between 5,000 and 11,000 kilometers. </p>
++            <p> 3. Far: Above 11,000 kilometers. </p>
++        </div>
++    </div>
++</div>
+     {% endblock %}
+ </body>
+ </html>
+\ No newline at end of file
+Index: Tutorial.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>tutorial</title>\r\n    <link rel=\"stylesheet\" href=\"project.css\">\r\n</head>\r\n<body>\r\n<h1>Tutorial</h1>\r\n<h2>Introduction</h2>\r\n\r\n<div class=\"Introduction_text\">\r\n    <img src=\"../img/Tutorial_Picture.jpg\" alt=\"Introduction\" class=\"Introduction_image\">\r\n  <p>In this game you will spawn at a random airport, anywhere in the world.\r\n    Your objective is to reach a specific airport in the minimum amount of attempts possible.\r\n    An attempt is counted everytime you reach a different airport.\r\n    Instructions on how to move can be found after starting a game.</p>\r\n</div>\r\n\r\n<div class=\"Target_and_Dif\">\r\n    <div class=\"Game_difficulty\">\r\n        <img src=\"../img/Game_difficulty.jpg\" alt=\"Game_Dif\" class=\"Game_Dif_image\">\r\n            <div class=\"Game_Dif_description\">\r\n                <p>There are three levels in game: Easy, Medium or Hard.</p>\r\n                    <p>This parameter affects the type of airports that appear in your game session.</p>\r\n                     <p> 1. Easy: Only large airports. </p>\r\n                     <p> 2. Medium: Large and medium airports. </p>\r\n                     <p> 3. Hard: Large, medium and small airports. </p>\r\n\r\n            </div>\r\n        </div>\r\n    <div class=\"Target_distance\">\r\n        <img src=\"../img/Target_distance.jpg\" alt=\"Target_Dis\" class=\"Target_Dis_image\">\r\n        <div class=\"Target_Dis_description\">\r\n            <p>Target Distance: Near, Average or Far.</p>\r\n            <p>This parameter affects the distance between the starting and the target airports.</p>\r\n            <p> 1. Near: Between 1,000 and 5,000 kilometers. </p>\r\n            <p> 2. Average: Between 5,000 and 11,000 kilometers. </p>\r\n            <p> 3. Far: Above 11,000 kilometers. </p>\r\n        </div>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>
+===================================================================
+diff --git a/Tutorial.html b/Tutorial.html
+--- a/Tutorial.html	
++++ b/Tutorial.html	
+@@ -11,8 +11,8 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>tutorial</title>
+-    <link rel="stylesheet" href="project.css">
++    <title>Tutorial | Path:Unknown</title>
++    <link rel="stylesheet" href="static/css/Tutorial.css">
+ </head>
+ <body>
+ <h1>Tutorial</h1>
