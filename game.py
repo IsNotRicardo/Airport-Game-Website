@@ -93,14 +93,6 @@ def init_game():
     return location[0] + location[1]
 
 
-@routes.route('/navigation-dat', methods=['POST'])
-def debug():
-    temp_coords = list(range(2))
-    data = request.get_json()
-    temp_coords[0] = [data['lat'], data['lng']]
-    return temp_coords[0]
-
-
 @routes.route('/navigation-data', methods=['POST'])
 def game_navigation():
     arrive = False
