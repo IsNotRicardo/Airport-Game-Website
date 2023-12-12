@@ -91,6 +91,8 @@ function game_navigation(lat, lng) {
                     color: '#FFFF00'
                 }
 
+                points = point_color(points)
+
                 switch (response[4]) {
                     case 0:
                         place.text("You are closer to the target")
@@ -113,7 +115,9 @@ function game_navigation(lat, lng) {
                 }
 
                 points.push(new_point)
-                globe.pointsData(points)
+                globe
+                    .pointsData(points)
+                    .pointColor('color')
 
                 setTimeout(function () {
                     alert("You have won the game! It took you " + response[1] + " attempts.")
@@ -121,7 +125,6 @@ function game_navigation(lat, lng) {
                 }, 1000)
             }
 
-            points = point_color(points)
             points.push(new_point)
             globe.pointsData(points)
         },
