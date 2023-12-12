@@ -1,0 +1,69 @@
+.members {
+    justify-content: space-between;
+    display: flex;
+    padding: 3rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ricardo {
+    width: 32%;
+}
+
+.ricardo_img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 60px;
+    max-height:400px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.theo {
+    width: 32%;
+}
+
+.theo_img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 60px;
+    max-height:400px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.upeksha {
+    width: 32%;
+}
+
+.upeksha_img {
+    display: flex;
+    height: 500px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 60px;
+    max-height:400px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.products p {
+    text-align: center;
+    padding: 0.5rem;
+}
