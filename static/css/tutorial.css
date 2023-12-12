@@ -16,12 +16,11 @@ h1{
     font-family: "Press Start 2p" ;
     color: #555555;
     background-color: #ecf0f1;
-     padding: 8px;
+    padding: 8px;
     border-radius: 4px;
     transition: background-color 0.2s ease-in-out;
-    cursor:pointer;
+    cursor: pointer;
     text-align: center;
-
 }
 
 body {
@@ -29,7 +28,6 @@ body {
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #space {
