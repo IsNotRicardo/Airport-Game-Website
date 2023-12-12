@@ -7,8 +7,8 @@ connection = mysql.connector.connect(
     host='127.0.0.1',
     port='3306',
     database='flight_game',
-    user='dbuser',
-    password='1234',
+    user='root',
+    password='Soft2023@fin',
     autocommit=True
 )
 
