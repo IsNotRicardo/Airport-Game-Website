@@ -48,7 +48,7 @@ body {
   align-content: space-around;
   position: fixed;
   padding: 0px;
-  background-image: url("//unpkg.com/three-globe/example/img/night-sky.png");
+  background-image: url("/static/img/backdrop.png");
 }
 
 .mainHeading__content {
