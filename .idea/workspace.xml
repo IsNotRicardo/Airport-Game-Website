@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce745d-c581-47e4-9c66-b339be71b7c9" name="Changes" comment="Tutorial HTML" />
+    <list default="true" id="c2ce745d-c581-47e4-9c66-b339be71b7c9" name="Changes" comment="Tutorial HTML -color change text" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +138,7 @@
       <workItem from="1702295240427" duration="7074000" />
       <workItem from="1702313621842" duration="752000" />
       <workItem from="1702357954099" duration="1034000" />
-      <workItem from="1702374561925" duration="489000" />
+      <workItem from="1702374561925" duration="826000" />
     </task>
     <task id="LOCAL-00001" summary="Add tutorial">
       <option name="closed" value="true" />
@@ -268,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702375046920</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Tutorial HTML -color change text">
+      <option name="closed" value="true" />
+      <created>1702375212556</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702375212556</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Tutorial HTML -color change text">
+      <option name="closed" value="true" />
+      <created>1702375311351</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702375311351</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,9 +315,10 @@
     <MESSAGE value="3rd" />
     <MESSAGE value="HTML CSS edit1" />
     <MESSAGE value="Tutorial HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tutorial HTML" />
+    <MESSAGE value="Tutorial HTML -color change text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tutorial HTML -color change text" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/_Airport_Game_webpage$_Airport_Game_webpage.coverage" NAME=" Airport_Game_webpage Coverage Results" MODIFIED="1702374711361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/_Airport_Game_webpage$_Airport_Game_webpage.coverage" NAME=" Airport_Game_webpage Coverage Results" MODIFIED="1702375391630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
