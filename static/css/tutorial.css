@@ -89,6 +89,7 @@ h2:hover {
 
 .Game_Dif_description, .Target_Dis_description {
     margin-top: 10px;
+
 }
 
 .Game_Dif_image:hover, .Target_Dis_image:hover {
@@ -98,7 +99,7 @@ h2:hover {
 
 
 p {
-    color: #555;
+    color: white;
     margin-bottom: 10px;
     line-height: 1.4;
 }
