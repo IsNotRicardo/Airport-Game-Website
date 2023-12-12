@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce745d-c581-47e4-9c66-b339be71b7c9" name="Changes" comment="Tutorial HTML -CSS change main heading content">
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+    <list default="true" id="c2ce745d-c581-47e4-9c66-b339be71b7c9" name="Changes" comment="Home CSS -change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/tutorial.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/tutorial.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,7 @@
       <workItem from="1702295240427" duration="7074000" />
       <workItem from="1702313621842" duration="752000" />
       <workItem from="1702357954099" duration="1034000" />
-      <workItem from="1702374561925" duration="2097000" />
+      <workItem from="1702374561925" duration="3264000" />
     </task>
     <task id="LOCAL-00001" summary="Add tutorial">
       <option name="closed" value="true" />
@@ -326,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702376566691</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Home CSS -change">
+      <option name="closed" value="true" />
+      <created>1702376786288</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702376786288</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,9 +372,10 @@
     <MESSAGE value="Tutorial HTML -CSS change" />
     <MESSAGE value="Tutorial HTML -CSS change1" />
     <MESSAGE value="Tutorial HTML -CSS change main heading content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tutorial HTML -CSS change main heading content" />
+    <MESSAGE value="Home CSS -change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home CSS -change" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/_Airport_Game_webpage$_Airport_Game_webpage.coverage" NAME=" Airport_Game_webpage Coverage Results" MODIFIED="1702376610687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/_Airport_Game_webpage$_Airport_Game_webpage.coverage" NAME=" Airport_Game_webpage Coverage Results" MODIFIED="1702377651815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
