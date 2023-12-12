@@ -19,6 +19,7 @@ const directionalLight = globe.lights().find(light => light.type === 'Directiona
 directionalLight && directionalLight.position.set(1, 1, 1); // change light position to see the specularMap's effect
 
 let points = []
+let arcs = []
 
 function settings_data() {
     const settings = document.getElementById("settings_modal")
@@ -71,11 +72,28 @@ function game_navigation(lat, lng) {
         contentType: 'application/json',
         success: function(response){
             let new_point
+            let new_arc
             let place = $("#proximity")
 
             $("#current").text("AT: " + response[0][1])
             $("#attempts").text("ATTEMPTS: " + response[1])
             $("#distance").text("DISTANCE: " + response[2] + " KM")
+
+            new_arc = {
+                startLat: points[points.length - 1].lat,
+                startLng: points[points.length - 1].lng,
+                endLat: response[0][2],
+                endLng: response[0][3]
+            }
+
+            arcs.push(new_arc)
+            globe
+                .arcsData(arcs)
+                .arcColor(() => 'orange')
+                .arcAltitude(0.3)
+                .arcDashLength(0.25)
+                .arcDashGap(0.125)
+                .arcDashAnimateTime(4000)
 
             if (!response[3]) {
                 let index = points.findIndex(point => point.name === response[0][1]);
