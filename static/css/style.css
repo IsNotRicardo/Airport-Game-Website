@@ -23,10 +23,11 @@
   width: 100%;
   height: 100%;
   align-content: space-around;
-  background-image: url("//unpkg.com/three-globe/example/img/night-sky.png");
-  background-color: #000000;
-
+  position: fixed;
+  padding: 0px;
+  background-image: url("/static/img/backdrop.png");
 }
+
 header {
   font-family: "Press Start 2p";
 }
