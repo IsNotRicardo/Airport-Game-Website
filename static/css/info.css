@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .members {
     justify-content: space-between;
     display: flex;
-    padding: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
 }
 
 h3 {
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 
 .ricardo {
@@ -15,8 +32,8 @@ h3 {
 
 .ricardo_img {
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 60px;
@@ -31,8 +48,8 @@ h3 {
 
 .theo_img {
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 60px;
@@ -47,8 +64,8 @@ h3 {
 
 .upeksha_img {
     display: flex;
-    height: 500px;
-    width: 650px;
+    height: 200px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 60px;
@@ -57,13 +74,46 @@ h3 {
     overflow: hidden;
 }
 
-figcaption {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.3rem;
+.daniil {
+    width: 32%;
 }
 
-.products p {
+.daniil_img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 60px;
+    max-height:400px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.egzon {
+    width: 32%;
+}
+
+.egzon_img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 60px;
+    max-height:400px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-size: small;
     text-align: center;
-    padding: 0.5rem;
+}
+
+.teamdesc {
+    padding: 2rem;
+    margin-top: 4%;
+    font-size: large;
 }
