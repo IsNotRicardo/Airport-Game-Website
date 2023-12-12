@@ -78,11 +78,17 @@ function game_navigation(lat, lng) {
             $("#distance").text("DISTANCE: " + response[2] + " KM")
 
             if (!response[3]) {
+                let index = points.findIndex(point => point.name === response[0][1]);
+
+                if (index !== -1) {
+                    points.splice(index, 1);
+                }
+
                 new_point = {
                     name: response[0][1],
                     lat: response[0][2],
                     lng: response[0][3],
-                    color: 'blue'
+                    color: '#FFFF00'
                 }
 
                 switch (response[4]) {
@@ -90,13 +96,15 @@ function game_navigation(lat, lng) {
                         place.text("You are closer to the target")
                         break
                     case 1:
-                        place.text("You are farther to the target")
+                        place.text("You are farther from the target")
                         break
                     case 2:
                         place.text("You are at the same distance")
                         break
                 }
             } else {
+                place.text("You have arrived at the target")
+
                 new_point = {
                     name: response[0][1],
                     lat: response[0][2],
@@ -113,6 +121,7 @@ function game_navigation(lat, lng) {
                 }, 1000)
             }
 
+            points = point_color(points)
             points.push(new_point)
             globe.pointsData(points)
         },
@@ -120,6 +129,20 @@ function game_navigation(lat, lng) {
             console.log("Could not retrieve airport data")
         }
     });
+}
+
+function point_color(points) {
+    const colors = ['#F8F6D8', '#FCF8AB', '#FFFF7E', '#FFFF40'];
+
+    for (let i = 1; i < points.length; i++) {
+        if (i < points.length - 4) {
+            points[i].color = colors[0];
+        } else {
+            points[i].color = colors[3 - (points.length - i - 1)];
+        }
+    }
+
+    return points;
 }
 
 window.onload = function () {
